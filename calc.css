@@ -1,0 +1,101 @@
+body {
+    background-image: url("bc.jpg");
+    margin: 0
+}
+
+#calc {
+    flex-wrap: wrap;
+}
+
+input {
+    position: absolute;
+    margin-left: 36.5%;
+    margin-top: -60px;
+    text-align: right;
+    width: 565px;
+    height: 50px;
+    box-sizing: content-box;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+}
+
+table {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: center;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    position: relative;
+    right: 0;
+    padding: 50px 70px;
+    width: 20%;
+    border-radius: 4px;
+    background-color: #373737;
+    opacity: 70%;
+    color: white;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: navy;
+    opacity: 1;
+}
+
+button:focus {
+    outline: none;
+    animation: button-color 0.6s linear
+}
+
+@keyframes button-color {
+    from {
+        background-color: navy;
+    }
+    75% {
+        background-color: red;
+    }
+    100% {
+        background-color: navy;
+    }
+}
+
+tr {
+    color: white;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#foot {
+    position: absolute;
+    clear: both;
+    color: white;
+    bottom: 0;
+    padding: 10px;
+    left: 0;
+    font-size: 20px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: red;
+    text-shadow: 0 0 2px #fff
+}
