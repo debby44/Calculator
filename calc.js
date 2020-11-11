@@ -13,14 +13,12 @@ function reply_click(id_button) {
         if (id_button == "C") {
             count = ""; //reset count
             text.value = ""
-
         }
 
         if (id_button == "Canc") {
             var text_ = text.value
             text.value = text_.slice(0, -1) //delete last char
             count = count.slice(0, -1) //save the new string
-
         }
 
         if (id_button == "=") {
@@ -36,9 +34,6 @@ function reply_click(id_button) {
                 text.value = "" //reset
 
             }
-
-
         }
     }
-
 }
